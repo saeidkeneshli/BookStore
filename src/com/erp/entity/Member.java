@@ -1,19 +1,19 @@
 package com.erp.entity;
 
-public class Person {
+public class Member {
     long id;
     String melliCode, name, family;
 
-    public Person() {
+    public Member() {
     }
 
-    public Person(String melliCode, String name, String family) {
+    public Member(String melliCode, String name, String family) {
         this.melliCode = melliCode;
         this.name = name;
         this.family = family;
     }
 
-    public Person(long id, String melliCode, String name, String family) {
+    public Member(long id, String melliCode, String name, String family) {
         this.id = id;
         this.melliCode = melliCode;
         this.name = name;
@@ -24,7 +24,7 @@ public class Person {
         return id;
     }
 
-    public Person setId(long id) {
+    public Member setId(long id) {
         this.id = id;
         return this;
     }
@@ -33,7 +33,7 @@ public class Person {
         return melliCode;
     }
 
-    public Person setMelliCode(String melliCode) {
+    public Member setMelliCode(String melliCode) {
         this.melliCode = melliCode;
         return this;
     }
@@ -42,7 +42,7 @@ public class Person {
         return name;
     }
 
-    public Person setName(String name) {
+    public Member setName(String name) {
         this.name = name;
         return this;
     }
@@ -51,7 +51,7 @@ public class Person {
         return family;
     }
 
-    public Person setFamily(String family) {
+    public Member setFamily(String family) {
         this.family = family;
         return this;
     }
