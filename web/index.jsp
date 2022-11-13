@@ -4,6 +4,6 @@
     <title>Saeid BOOKSTORE</title>
   </head>
   <body>
-  $END$
+  <div>Welcome</div>
   </body>
 </html>
