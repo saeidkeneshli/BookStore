@@ -1,3 +1,4 @@
+<!-- This template was made by Colorlib (https://colorlib.com) -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,6 +33,6 @@
 		</div>
 	</div>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>
